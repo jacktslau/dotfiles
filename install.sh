@@ -7,7 +7,6 @@ source $HOME/.dotfiles_env
 
 # Install dotfiles on a fresh system
 source $DOTFILES/ssh/install.sh
-source $DOTFILES/bin/install.sh
 source $DOTFILES/homebrew/install.sh
 source $DOTFILES/zsh/install.sh
 source $DOTFILES/osx/install.sh
