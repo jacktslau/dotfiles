@@ -1,6 +1,7 @@
 #!/bin/sh
 
 echo "Setting up OS X..."
+brew update
 
 # Install GNU core utilities (those that come with OS X are outdated)
 HOMEBREW_NO_AUTO_UPDATE=1 brew install coreutils
@@ -25,7 +26,7 @@ HOMEBREW_NO_AUTO_UPDATE=1 brew install ${binaries[@]}
 brew cleanup
 
 cask_binaries=(
-  chrome
+  google-chrome
   firefox  
   dropbox
   boxcryptor
