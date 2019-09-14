@@ -23,3 +23,5 @@ cask "dropbox"
 cask "firefox"
 cask "fork"
 cask "google-chrome"
+
+mas "Amphetamine", id: 937984704
