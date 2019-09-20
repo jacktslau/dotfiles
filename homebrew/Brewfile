@@ -18,10 +18,13 @@ brew "trash"
 brew "tree"
 brew "wget"
 
+cask "boostnote"
 cask "boxcryptor"
 cask "dropbox"
 cask "firefox"
 cask "fork"
 cask "google-chrome"
+cask "slack"
 
 mas "Amphetamine", id: 937984704
+mas "Outline VPN", id: 1356178125
