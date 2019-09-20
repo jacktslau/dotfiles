@@ -9,6 +9,8 @@ source $HOME/.dotfiles_env
 source $DOTFILES/ssh/install.sh
 source $DOTFILES/homebrew/install.sh
 source $DOTFILES/zsh/install.sh
+source $DOTFILES/ruby/install.sh
+source $DOTFILES/postgres/install.sh
 source $DOTFILES/osx/install.sh
 source $DOTFILES/php/install.sh
 source $DOTFILES/fonts/install.sh

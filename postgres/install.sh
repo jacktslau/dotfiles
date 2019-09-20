@@ -6,5 +6,5 @@ if test ! $(which brew); then
   ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
 
-# Install Homebrew binaries
-brew bundle --file=$DOTFILES/homebrew/Brewfile
+# Install Postgres binaries
+brew bundle --file=$DOTFILES/postgres/Brewfile

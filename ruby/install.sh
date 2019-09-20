@@ -6,5 +6,9 @@ if test ! $(which brew); then
   ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
 
-# Install Homebrew binaries
-brew bundle --file=$DOTFILES/homebrew/Brewfile
+# Install ruby binaries
+brew bundle --file=$DOTFILES/ruby/Brewfile
+
+# Install Bundler
+gem install bundler
+gem update --system
