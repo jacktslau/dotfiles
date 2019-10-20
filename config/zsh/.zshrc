@@ -29,7 +29,7 @@ zgen oh-my-zsh plugins/colored-man-pages
 zgen oh-my-zsh plugins/docker
 zgen oh-my-zsh plugins/docker-compose
 zgen oh-my-zsh plugins/git
-zgen oh-my-zsh plugins/golang
+zgen oh-my-zsh plugins/gitignore
 zgen oh-my-zsh plugins/sudo
 
 # theme
