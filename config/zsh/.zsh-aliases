@@ -1,0 +1,11 @@
+alias ls='exa'
+alias ll="exa -laghm --git --color-scale --group-directories-first"
+alias llr="ll -R"
+alias vi="vim -v"
+alias vim="vim -v"
+alias ping='prettyping --nolegend'
+
+alias wanip='curl -s ifconfig.me'
+alias myip='wanip'
+
+alias myshell='echo $SHELL'

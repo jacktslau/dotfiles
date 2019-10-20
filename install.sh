@@ -11,10 +11,3 @@ source $DOTFILES/homebrew/install.sh
 source $DOTFILES/zsh/install.sh
 source $DOTFILES/ruby/install.sh
 source $DOTFILES/postgres/install.sh
-source $DOTFILES/osx/install.sh
-source $DOTFILES/php/install.sh
-source $DOTFILES/fonts/install.sh
-source $DOTFILES/apps/install.sh
-
-# Load ZSH as our environment
-env zsh

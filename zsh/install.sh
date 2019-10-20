@@ -2,11 +2,14 @@
 
 echo "Setting up zsh..."
 
-# Install zsh
-brew install zsh zsh-completions
+# Install ZSH binaries
+brew bundle --file=$DOTFILES/zsh/Brewfile
 
 # Make zsh the default environment
 chsh -s $(which zsh)
 
-# Install oh-my-zsh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+# Install zgen
+git clone https://github.com/tarjoilija/zgen.git "${HOME}/.zgen"
+
+cd $DOTFILES/config; stow zsh -t ~/; cd $DOTFILES
+source $HOME/.zshrc
