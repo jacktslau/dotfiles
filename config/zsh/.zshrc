@@ -9,12 +9,8 @@ export PATH="/usr/local/opt/gnu-sed/libexec/gnubin:$PATH"
 #   export EDITOR='vim'
 # fi
 
-source ~/.zsh-aliases
 source ~/.dotfiles/.dotfiles_env
 source ~/.rubyrc
-
-# Work related rc file
-test -f ~/.neatrc && source ~/.neatrc
 
 # Correct spelling for commands
 setopt correct
@@ -65,3 +61,9 @@ setopt share_history
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ -f ~/.p10k.zsh ]] && source ~/.p10k.zsh
+
+# Load custom aliases
+source ~/.zsh-aliases
+
+# Load work related rc file
+test -f ~/.neatrc && source ~/.neatrc
