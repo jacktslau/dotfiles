@@ -1968,7 +1968,7 @@
 	<key>NSWindow Frame SharedPreferences</key>
 	<string>422 506 796 486 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>55 31 1355 839 0 0 1440 877 </string>
+	<string>57 59 1263 818 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>155 70 1285 727 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
@@ -2619,6 +2619,17 @@
 		<string>3.2.9</string>
 		<string>3.3.6</string>
 	</array>
+	<key>NoSyncBFPFavorites</key>
+	<array>
+		<string>MesloLGS NF</string>
+		<string>Fira Code</string>
+	</array>
+	<key>NoSyncBFPRecents</key>
+	<array>
+		<string>Monaco</string>
+		<string>Fira Code</string>
+		<string>MesloLGS NF</string>
+	</array>
 	<key>NoSyncFrame_SharedPreferences</key>
 	<dict>
 		<key>screenFrame</key>
@@ -2633,7 +2644,7 @@
 	<key>NoSyncInstallationId</key>
 	<string>7C5033C9-B5BF-45C7-968B-2324958450A5</string>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>1</integer>
+	<integer>2</integer>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
@@ -3354,7 +3365,15 @@
 	<true/>
 	<key>NoSyncSearchHistory2</key>
 	<array>
-		<string>PROFILE</string>
+		<string>git push</string>
+		<string>sender</string>
+		<string>address</string>
+		<string>nick</string>
+		<string>messageqq</string>
+		<string>reference</string>
+		<string>frozon</string>
+		<string>destination_rece</string>
+		<string>updated_at</string>
 	</array>
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
 	<real>549362532.99839199</real>
@@ -3412,7 +3431,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2019-10-18T07:40:28Z</date>
+	<date>2019-10-31T06:15:27Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>ShowFullScreenTabBar</key>
