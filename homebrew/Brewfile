@@ -22,6 +22,7 @@ brew "trash"
 brew "tree"
 brew "wget"
 
+cask "alfred"
 cask "boostnote"
 cask "boxcryptor"
 cask "dropbox"
@@ -40,6 +41,7 @@ brew "docker-compose"
 
 mas "Amphetamine", id: 937984704
 mas "Outline VPN", id: 1356178125
+mas "Pocket", id: 568494494
 mas "Telegram", id: 747648890
 mas "Tweetbot 3", id: 1384080005
 
