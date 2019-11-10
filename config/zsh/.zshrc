@@ -66,7 +66,7 @@ setopt share_history
 source ~/.zsh-aliases
 
 # Load ssh helpers
-soruce ~/.ssh-helper.sh
+source ~/.ssh-helper.sh
 
 # Load work related rc file
 test -f ~/.neatrc && source ~/.neatrc
