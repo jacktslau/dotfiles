@@ -1,0 +1,6 @@
+brew "awscli"
+brew "terraform"
+brwe "terragrunt"
+
+cask "docker"
+brew "docker-compose"

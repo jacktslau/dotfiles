@@ -11,3 +11,4 @@ source $DOTFILES/homebrew/install.sh
 source $DOTFILES/zsh/install.sh
 source $DOTFILES/ruby/install.sh
 source $DOTFILES/postgres/install.sh
+source $DOTFILES/devops/install.sh
