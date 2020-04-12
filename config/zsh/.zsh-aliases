@@ -9,3 +9,12 @@ alias wanip='curl -s ifconfig.me'
 alias myip='wanip'
 
 alias myshell='echo $SHELL'
+
+alias gmod='git merge origin/develop'
+alias gmud='git merge upstream/develop'
+alias glud='git pull upstream/develop'
+
+alias gcr='git checkout release'
+alias gmor='git merge origin/release'
+alias gmur='git merge upstream/release'
+alias glur='git pull upstream/release'
