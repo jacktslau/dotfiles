@@ -18,3 +18,5 @@ alias gcr='git checkout release'
 alias gmor='git merge origin/release'
 alias gmur='git merge upstream/release'
 alias glur='git pull upstream/release'
+
+alias stm='sh ssh-tunnel-manager.sh --config ~/.ssh/neat/ssh-tunnel-manager.conf'
